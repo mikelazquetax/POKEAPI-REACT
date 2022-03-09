@@ -1,0 +1,40 @@
+$border-radius-size: 14px;
+.card{
+    display: block;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+    border-bottom: solid;
+    width: 20%;
+    margin-bottom: 10%;
+    position: relative;
+ .id{
+     margin: auto;
+    margin-top: 10%;
+    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/barbarian-bg.jpg');
+     border-style: double;
+     border-radius: 50%;
+     padding: 1%;
+     width: 10%;
+     
+     align-items: center;
+    text-align: center;
+ }
+ .image{
+    
+    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/barbarian-bg.jpg');
+    top: 30px;
+    left: 0px;
+    width: 100%;
+     margin-bottom: 10%;
+     margin-top: 10%;
+     position: relative;
+     height: 230px;
+     border-top-left-radius: $border-radius-size;
+      border-top-right-radius: $border-radius-size;
+      border-bottom: solid;
+ }
+}

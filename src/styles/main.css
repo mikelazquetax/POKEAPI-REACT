@@ -1,0 +1,38 @@
+.allCards {
+  display: block;
+  padding: 2%;
+  text-align: center;
+}
+
+.allCards .singleCard {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border-style: solid;
+  border-color: red;
+  width: 5%;
+  padding: 1%;
+  margin: 1%;
+  background-color: #f3dca4;
+}
+
+.allCards .singleCard:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  cursor: pointer;
+}
+
+.allCards .singleCard p {
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  font-style: none;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*# sourceMappingURL=main.css.map */

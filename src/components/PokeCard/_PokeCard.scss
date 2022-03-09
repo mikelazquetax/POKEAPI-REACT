@@ -1,0 +1,77 @@
+.header{
+    
+    margin: auto;
+    width: 100%;
+    
+    justify-content: center;
+    padding: 2%;
+    background-color: gold;
+    button{
+        
+        margin-left: 4%;
+        background-color: darkblue ;
+        color: white;
+        border-radius: 10% ;
+        height: 60px;
+        &:hover{
+            cursor: pointer;
+            box-shadow: 10px 5px 5px black;
+            transform: scale(1.1);
+        }
+
+
+    }
+}
+
+.allCards{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+
+    a{
+        text-decoration: none;
+        text-align: center;
+        width: 1200px;
+     
+    }
+    
+          
+    
+    .singleCard{
+        display: inline-flex;
+        border-style: solid;
+        
+        width: 1000px;
+        padding: 1%;
+        margin: 0.3%;
+        align-items: center;
+        text-align: center;
+        background-color: gold;
+       
+        &:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+            background-color: darkblue;
+            color: white;
+            box-shadow: 10px 5px 5px crimson;
+        }
+       
+        p{
+         text-decoration: none;
+            margin: auto;
+            color:black;
+            font-size: 15px;
+            font-style: none;
+           width: 100%;
+            font-weight: bold;
+            text-align: center;
+            &:hover{
+                color: white
+            }
+        
+        }
+    }
+}
